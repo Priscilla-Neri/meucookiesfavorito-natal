@@ -103,7 +103,11 @@ footer {
   .hero p {
     font-size: 1rem;
   }
-  .cta h2 {
-    font-size: 1.5rem;
+  
+  .hero .text a {
+    display: block;     /* cada botão ocupa a linha inteira */
+    width: 100%;        /* ocupa 100% da largura da div */
+    margin-bottom: 10px; /* espaço entre os botões */
+    text-align: center;  /* centraliza o texto */
   }
 }
